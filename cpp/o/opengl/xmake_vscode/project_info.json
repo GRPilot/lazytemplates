@@ -1,0 +1,11 @@
+{
+    "project_name": "OpenGL vscode xmake template",
+    "description": "The OpenGL basic application with xmake build system and vscode as IDE",
+    "available_build_systems": [ "xmake" ],
+    "available_ide_bindings": [ "vscode", "visual studio" ],
+    "language": "C++17",
+    "dependencies": [
+        "glfw", "glad", "glm", "stb",
+        "cl", "Visual Studio"
+    ]
+}
